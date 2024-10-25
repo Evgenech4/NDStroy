@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16a0124a76.js" crossorigin="anonymous"></script>
+    <title>ND-Stroy</title>
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+    <header class="header">
+        <div class="header_item">
+            <div class="header_title">
+                <img class="header_icon" src="assets/images/Header/Icon.png" alt="Icon">
+                <div class="header_title_text">
+                    <div class="header_text_1">ND-STROY PLUS</div>
+                    <div class="header_text_2">Строим как для себя с душой и на века</div>
+                </div>
+            </div>
+            <div class="header_suptitle">БОЛЕЕ 100 ПОСТРОЕННЫХ ДОМОВ</div>
+        </div>
+
+        <div class="header_item">
+            <img class="header_thunder" src="assets/images/Header/Thunder.png" alt="Thunder">
+            <div class="header_text_3">Построим ваш идеальный дом 🏘 в любой точке страны от 45 000$</div>
+        </div>
+
+        <div class="header_item">
+            <button class="header_order">Оставить заявку прорабу</button>
+        </div>
+
+        <div class="header_item">
+            <div class="header_text_4">Отдел продаж работает</div>
+            <div class="header_text_5">с 11:00 до 19:00 без вых.</div>
+        </div>
+
+        <div class="header_item">
+            <img class="header_house" src="assets/images/Header/House.png" alt="House">
+            <div class="header_contact_text">
+                <div class="header_text_6">
+                    <div class="header_online"></div>
+                    <div class="header_online_text">Прораб сейчас Online</div>
+                </div>
+                <div class="header_text_7">+375 00 000 00</div>
+                <div class="header_text_8">ЗАДАЙТЕ МНЕ ВАШ ВОПРОС</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="second-header">
+        <div class="navigation">
+            <a class="nav_item active" href="#">Главная</a>
+            <a class="nav_item" href="#">🔥 Кейсы и услуги</a>
+            <a class="nav_item" href="#">Блог</a>
+            <a class="nav_item" href="#">Моя история — о Собственнике</a>
+            <a class="nav_item" href="#">Контакты</a>
+        </div>
+
+        <button class="download">Скачать тех. задание и шаблон договора <img class="download-img" src="assets/images/Second-header/download.png" alt=""></button>
+
+        <a class="video" href="#"><i class="fa-brands fa-youtube"></i> <div class="gold">Видео-</div>кейс от Встречи до строительства дома</a>
+
+        <div class="socials">
+            <a href="#" class="social_link"><img class="social_cl" src="assets/images/Second-header/insta.png" alt="inst"></a>
+            <a href="#" class="social_link"><img class="social_cl" src="assets/images/Second-header/facebook.png" alt="facebook"></a>
+            <a href="#" class="social_link"><img class="social_cl" src="assets/images/Second-header/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+
+    <div class="share">
+        <i class="fa-solid fa-share-nodes" id="openPopup"></i>
+        <div class="share_text">Сделай репост и получи расчёт <br> стоимости в подарок!</div>
+    </div>
+
+    <div class="building">
+        <div class="house_slider">
+            <div class="building_title">Построим дом по проекту КД —1 <span class="building_gradient_text">в любой точке Беларуси</span> без срывов сроков <span class="building_gradient_text">со всеми коммуникациями</span> под ключ</div>
+            <div class="building_slider">
+                <button class="slider_btn" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+                <img class="building_house" src="assets/images/Second-header/1.png" id="sliderImage" alt="House">
+                <button class="slider_btn" id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <form class="building_form" action="">
+            <div class="form_title">ЭТО БЕСПЛАТНО!</div>
+            <div class="form_text">📝 <b>Оставь заявку</b> и мы рассчитаем стоимость вашего дома 😁</div>
+            <input class="form_input" type="text" name="" id="" placeholder="Введите имя">
+            <input class="form_input" type="text" name="" id="" placeholder="Введите телефон">
+            <input class="form_input" type="text" name="" id="" placeholder="@Username в Telegram (если есть)">
+
+            <div class="contact">
+                <button class="contact_item"><i class="fa-solid fa-phone"></i></button>
+                <button class="contact_item"><i class="fa-regular fa-paper-plane"></i></button>
+                <button class="contact_item"><i class="fa-solid fa-phone-volume"></i></button>
+                <button class="contact_item"><i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+
+            <button class="form_btn" type="submit">Оставить заявку</button>
+        </form>
+    </div>
+
+    <div class="added">
+        <div class="cards">
+            <div class="card_item">
+                <div class="card_title">Соблюдаем сроки</div>
+                <div class="card_info">
+                    <i class="fa-regular fa-clock card_img"></i>
+                    <div class="card_text">От 2.5 до 5 месяцев, всё согласно договора</div>
+                </div>
+            </div>
+
+            <div class="card_item">
+                <div class="card_title">Гарантия до 50 лет</div>
+                <div class="card_info">
+                    <i class="fa-regular fa-square-check card_img"></i>
+                    <div class="card_text">Опытная команда мастеров с профессиональным оборудованием</div>
+                </div>
+            </div>
+
+            <div class="card_item">
+                <div class="card_title">Стоимость строительства</div>
+                <div class="card_info">
+                    <i class="fa-solid fa-hand-holding-dollar card_img"></i>
+                    <div class="card_text">От 800$ м2 в зависимости от того что необходимо построить</div>
+                </div>
+            </div>
+
+            <div class="card_item">
+                <div class="card_title">Стоимость строительства</div>
+                <div class="card_info">
+                    <i class="fa-solid fa-hand-holding-dollar card_img"></i>
+                    <div class="card_text">От 800$ м2 в зависимости от того что необходимо построить</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="additional_info">Другие проекты которые могут вас заинтересовать</div>
+    </div>
+
+    <div class="projects">
+        <div class="planning_back">
+            <div class="planning">
+                <div class="planning_name building_gradient_text">Планировка дома по проекту — КД  1</div>
+                <div class="planning_inner">
+                    <img class="planning_img" src="assets/images/projects/plan.png" alt="">
+                    <div class="planning_info">
+                        <div class="planning_title">Планировка дома интересная и продуманная:</div>
+                        <div class="planning_info">
+                            <p>Дом состоит из двух этажей и включает в себя большую гостиную, рабочий кабинет, коридор, жилую комнату душевую и тамбур.</p>
+                            <p>Проектом предусматривается выход на задний двор, что очень удобно.</p>
+                        </div>
+                        <div class="planning_title">План Цокольного этажа</div>
+                        <div class="planning_item"><div class="circle"></div><div class="item_info">Кухня-гостиная: 40,0 м2</div></div>
+                        <div class="planning_item"><div class="circle"></div><div class="item_info">Спальня: 11,3 м2</div></div>
+                        <div class="planning_item"><div class="circle"></div><div class="item_info">Гардеробная: 9,0 м2</div></div>
+
+                        <button class="planning_btn">Связаться с проектировщиком</button>
+                    </div>
+                </div>
+                
+           </div> 
+        </div>
+    
+       <div class="other">
+            <div class="other_itemback">
+                <div class="other_item">
+                    <div class="other_title building_gradient_text">ПРОЕКТУ — КД  1</div>
+                    <div class="other_text">📝 <b>Оставьте заявку</b> и получите расчёт архитектора в подарок</div>
+                    <div class="other_imginfo">
+                        <img class="other_img" src="assets/images/projects/house.png" alt="">
+                        <div class="other_imgtext">от 800$ <b>м2</b></div>
+                    </div>
+
+                    <div class="contact">
+                        <button class="contact_item active other_contact"><i class="fa-solid fa-phone"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-regular fa-paper-plane"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-solid fa-phone-volume"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-brands fa-whatsapp"></i></button>
+                    </div>
+
+                    <button class="other_btn">Подробнее о проекте</button>
+                </div>
+            </div>
+
+            <div class="other_itemback">
+                <div class="other_item">
+                    <div class="other_title building_gradient_text">ПРОЕКТУ — КД  1</div>
+                    <div class="other_text">📝 <b>Оставьте заявку</b> и получите расчёт архитектора в подарок</div>
+                    <div class="other_imginfo">
+                        <img class="other_img" src="assets/images/projects/house.png" alt="">
+                        <div class="other_imgtext">от 800$ <b>м2</b></div>
+                    </div>
+
+                    <div class="contact">
+                        <button class="contact_item active other_contact"><i class="fa-solid fa-phone"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-regular fa-paper-plane"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-solid fa-phone-volume"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-brands fa-whatsapp"></i></button>
+                    </div>
+
+                    <button class="other_btn">Подробнее о проекте</button>
+                </div>
+            </div>
+
+            <div class="other_itemback">
+                <div class="other_item">
+                    <div class="other_title building_gradient_text">ПРОЕКТУ — КД  1</div>
+                    <div class="other_text">📝 <b>Оставьте заявку</b> и получите расчёт архитектора в подарок</div>
+                    <div class="other_imginfo">
+                        <img class="other_img" src="assets/images/projects/house.png" alt="">
+                        <div class="other_imgtext">от 800$ <b>м2</b></div>
+                    </div>
+
+                    <div class="contact">
+                        <button class="contact_item other_contact"><i class="fa-solid fa-phone"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-regular fa-paper-plane"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-solid fa-phone-volume"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-brands fa-whatsapp"></i></button>
+                    </div>
+
+                    <button class="other_btn">Подробнее о проекте</button>
+                </div>
+            </div>
+
+            <div class="other_itemback">
+                <div class="other_item">
+                    <div class="other_title building_gradient_text">ПРОЕКТУ — КД  1</div>
+                    <div class="other_text">📝 <b>Оставьте заявку</b> и получите расчёт архитектора в подарок</div>
+                    <div class="other_imginfo">
+                        <img class="other_img" src="assets/images/projects/house.png" alt="">
+                        <div class="other_imgtext">от 800$ <b>м2</b></div>
+                    </div>
+
+                    <div class="contact">
+                        <button class="contact_item active other_contact"><i class="fa-solid fa-phone"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-regular fa-paper-plane"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-solid fa-phone-volume"></i></button>
+                        <button class="contact_item other_contact"><i class="fa-brands fa-whatsapp"></i></button>
+                    </div>
+
+                    <button class="other_btn">Подробнее о проекте</button>
+                </div>
+            </div>
+
+            <div class="slider_buttons">
+                <button class="slider_button active" data-page="1">1</button>
+                <button class="slider_button" data-page="2">2</button>
+                <button class="slider_button" data-page="3">3</button>
+                <button class="slider_button" id="nextPage"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+       </div>
+    </div>
+
+    <div class="contact_theme">
+        <div class="contact_first">
+            <div class="contact_title">Свяжитесь с нами любым 
+                удобным для вас способом</div>
+            <div class="contact_insta">
+                <img class="insta_img" src="assets/images/contact/instascreen.png" alt="">
+                <div class="insta_info">
+                    <div class="insta_title"><b>Подпишитесь в Instagram</b> и получите чек-лист для привлечения клиентов <b>БЕСПЛАТНО</b></div>
+                    <button class="insta_btn">Подписаться <img class="insta_intext" src="assets/images/contact/instagram.png" alt=""> <img class="arrow" src="assets/images/contact/arrow.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_second">
+            <div class="contact_socials">
+                <img class="socials_item" src="assets/images/contact/telegram.png" alt="">
+                <img class="socials_item" src="assets/images/contact/whatsapp.png" alt="">
+                <img class="socials_item" src="assets/images/contact/instagram.png" alt="">
+                <img class="socials_item" src="assets/images/contact/facebook.png" alt="">
+                <img class="socials_item" src="assets/images/contact/youtube.png" alt="">
+            </div>
+
+            <div class="contact_vids">
+                <div class="contact_nav">
+                    <a href="#">Главная</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Примеры работ</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Сотрудничество</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Блог</a>
+                </div>
+                <div class="contact_content">
+                    <div class="vid_title">Видеоотзывы от наших довольных клиентов</div>
+                    <div class="videos">
+                        <div class="vid">
+                            <img class="vid_back" src="assets/images/contact/vid1.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        <div class="vid active">
+                            <img class="vid_back" src="assets/images/contact/vid2.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        <div class="vid">
+                            <img class="vid_back" src="assets/images/contact/vid3.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        <div class="vid">
+                            <img class="vid_back" src="assets/images/contact/vid3.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        <div class="vid">
+                            <img class="vid_back" src="assets/images/contact/vid3.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        <div class="vid">
+                            <img class="vid_back" src="assets/images/contact/vid3.png" alt="">
+                            <img class="play_btn" src="assets/images/contact/play.png" alt="">
+                        </div>
+
+                        
+                    </div>
+                    <div class="contact_slider">
+                        <div class="vid_circle active"></div>
+                        <div class="vid_circle"></div>
+                        <div class="vid_circle"></div>
+                        <div class="vid_circle"></div>
+                        <div class="vid_circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header_item">
+            <div class="header_title">
+                <img class="header_icon" src="assets/images/Header/Icon.png" alt="Icon">
+                <div class="header_title_text">
+                    <div class="header_text_1">ND-STROY PLUS</div>
+                    <div class="header_text_2">Строим как для себя с душой и на века</div>
+                </div>
+            </div>
+            <div class="header_suptitle">БОЛЕЕ 100 ПОСТРОЕННЫХ ДОМОВ</div>
+        </div>
+
+        <div class="header_item">
+            <img class="header_thunder" src="assets/images/Header/Thunder.png" alt="Thunder">
+            <div class="header_text_3">Построим ваш идеальный дом 🏘 в любой точке страны от 45 000$</div>
+        </div>
+
+        <div class="header_item">
+            <button class="header_order">Оставить заявку прорабу</button>
+        </div>
+
+        <div class="header_item">
+            <div class="header_text_4">Отдел продаж работает</div>
+            <div class="header_text_5">с 11:00 до 19:00 без вых.</div>
+        </div>
+
+        <div class="header_item">
+            <img class="header_house" src="assets/images/Header/House.png" alt="House">
+            <div class="header_contact_text">
+                <div class="header_text_6">
+                    <div class="header_online"></div>
+                    <div class="header_online_text">Прораб сейчас Online</div>
+                </div>
+                <div class="header_text_7">+375 00 000 00</div>
+                <div class="header_text_8">ЗАДАЙТЕ МНЕ ВАШ ВОПРОС</div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="footer">
+        Разработка <span class="building_gradient_text">сильных сайтов</span> с ориентацией на прибыль со <br> <span class="building_gradient_text">строительными компаниями работаем за результат</span>
+    </footer>
+</body>
+
+<div class="popup" id="popup">
+    <div class="popup_inner">
+        <div class="popup_title building_gradient_text">
+            Сделай репост проекта КД —1 себе в соц.сети что бы ни потерять ссылку
+            <i class="fa-solid fa-x" id="closePopup"></i>
+        </div>
+        <div class="popup_text">СДЕЛАТЬ РЕПОСТ СЕЙЧАС ЧТО БЫ ПОЛУЧИТ АР ПРОЕКТА В ПОДАРОК</div>
+        <div class="popup_buttons">
+            <button class="popup_btn"><img src="assets/images/popup/Viber.png" alt=""></button>
+            <button class="popup_btn"><img src="assets/images/popup/Whatsapp.png" alt=""></button>
+            <button class="popup_btn"><img src="assets/images/popup/Telegram.png" alt=""></button>
+            <button class="popup_btn"><img src="assets/images/popup/instagram.png" alt=""></button>
+            <button class="popup_btn"><img src="assets/images/popup/facebook.png" alt=""></button>
+        </div>
+        <button class="popup_main_btn">Скопировать ссылку <i class="fa-solid fa-arrow-right-long"></i></button>
+    </div>
+</div>
+
+<script src="assets/JS/app.js"></script>
+</html>
